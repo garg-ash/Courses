@@ -1,0 +1,274 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+/* navbar starts */
+.login
+{
+    height: 30px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black ;
+    text-align: center;
+}
+.login a
+{
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.login a:hover
+{
+    color: white;
+}
+.header
+{
+    background-color: #5a5a5a;
+}
+/* slider starts */
+.slider
+{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(white, black);
+}
+.slider h1
+{
+    text-align: center;
+    align-items: center;
+    padding-top: 10rem;
+    color: white;
+}
+/* first section starts */
+.firstsection
+{
+    width: 100%;
+    /* height: 900px; */
+    background-color: #5a5a5a;
+}
+.courses
+{
+    height: 400px;
+    width: 380px;
+    background-color: gray;
+    border: 1px solid #5a5a5a;
+    border-radius: 10px;
+}
+.coursebg
+{
+    background-image: url(./Images/codingbg.jpg);
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.coursebg h5
+{
+    color: white;
+    font-size: 18px;
+    padding: 15px 0 0 10px;
+}
+.coursebg h6
+{
+    color: white;
+    font-size: 12px;
+    padding: 0px 0 0 10px;
+}
+.reactlogo
+{
+    height: 100px;
+    width: 100px;
+}
+.reactlogo img
+{
+    height: 100%;
+    width: 100%;
+}
+.courses h6
+{
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+.courses h5
+{
+    color: white;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.courses p
+{
+    color: white;
+    padding-left: 10px;
+    font-size: 13px;
+}
+i.fa-solid.fa-clock {
+    color: orange;
+    font-size: 14px;
+}
+.watch
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 10px;
+}
+.watch h4
+{
+    color: white;
+    font-size: 14px;
+    padding: 7px 0 0 5px;
+}
+.watchflex
+{
+    display: flex;
+    align-items: centere;
+    justify-content: space-between;
+}
+.courses h3
+{
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+.checked {
+    color: orange;
+  }
+.enroll
+{
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+}
+.enroll a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.enroll a:hover
+{
+    color: white;
+}
+i.fa-solid.fa-greater-than {
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
+}
+/* .graphics
+{
+    margin-left: 14rem;
+} */
+/* footer starts */
+.footer
+{
+    width: 100%;
+    /* height: 300px; */
+    background-color: grey;
+}
+.logo 
+{
+  height: 30px;
+  width: 100px;
+  margin-top: 20px;
+}
+.logo img
+{
+    height: 100%;
+    width: 100%;
+}
+i.fa-solid.fa-envelope {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.mail
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mail a
+{
+    text-decoration: none;
+}
+.mail h6
+{
+    color: white;
+    font-size: 14px;
+    margin: 30px 0 0 5px;
+}
+i.fa-solid.fa-house {
+    color: white;
+    font-size: 20px;
+    /* margin-top: 30px; */
+}
+.home
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.home p
+{
+    color: white;
+    font-size: 14px;
+    margin: 30px 0 0 5px;
+}
+.coursefooter h5
+{
+    color: white;
+    margin-top: 30px;
+    padding-left: 30px;
+
+}
+.coursefooter ul
+{
+    list-style: none;
+}
+.coursefooter li a
+{
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    font-size: 14px;
+}
+i.fa-brands.fa-facebook {
+    color: white;
+    font-size: 28px;
+    margin-top: 30px;
+}
+i.fa-brands.fa-instagram {
+    color: white;
+    font-size: 28px;
+    margin: 30px 0 0 10px;
+}
+i.fa-brands.fa-linkedin {
+    color: white;
+    font-size: 28px;
+    margin: 30px 0 0 10px;
+}
+/* copyright section */
+.copyright
+{
+    height: 35px;
+    width: 100%;
+    background-color: #5a5a5a;
+}
+.copyright p
+{
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+}
