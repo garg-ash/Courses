@@ -4,62 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
-    <link rel="stylesheet" href="layout.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="layout.css">
 </head>
 <body>
-    <!-- navbar starts -->
-    <div class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-              <a class="navbar-brand" href="#">Codebase</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+  <!------------- top header -------------->
+
+  <section class="upper-header">
+    <div class="container ">
+        <div class="gradient">
+            <p class="mb-0"><i class="fa-solid fa-phone"></i>+91-12345678 / +91-87654321</p>
+        </div>
+    </div>
+</section>
+    <!------------- navbar starts ----------->
+        <nav class="navbar navbar-expand-lg bg py-0">
+          <div class="container">
+              <a class="navbar-brand imglogo" href="#">
+                  <img src="./Images/fsl logo.jpeg" alt="" class="img-fluid">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Courses</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                  </li>
-                </ul>
-                <div class="login">
-                  <a href="">Login</a>
-                </div>
+                  <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                      <li class="nav-item font">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item font">
+                          <a class="nav-link active" aria-current="page" href="#">Courses</a>
+                      </li>
+                      <li class="nav-item font">
+                          <a class="nav-link active" aria-current="page" href="#">About</a>
+                      </li>
+                      <li class="nav-item font">
+                          <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                      </li>
+  
+                      <li class="nav-item font">
+                          <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                      </li>
+                  </ul>
+  
+                  <form class="d-flex">
+  
+                      <button class="btn btn-warning" type="submit">Login</button>
+                  </form>
               </div>
-            </div>
-          </nav>
-        </div>
+          </div>
+      </nav>
 
-        <!-- slider starts -->
-        <div class="cotainer">
-            <div class="row">
-             <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="slider">
-                   <h1>Courses</h1>
-                </div> 
-            </div>
-        </div>
-    </div> 
-</div>
+        <!------------ slider starts ----------->
+       
+     <div class="banner_image_section">
 
-<!-- first section starts -->
+     
+      <div class="container-fluid px-0">
+          <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="banner">
+
+                  </div>
+              </div>
+          </div>
+      </div>   
+    </div>   
+   
+
+
+<!----------- first section starts -------------->
 <div class="firstsection">
     <div class="container">
         <div class="row">
@@ -72,10 +93,9 @@
                         <h6>From 1 Sep to 1 Nov.</h6>
                     </div>
                     <div class="reactlogo">
-                        <img src="./Images/react js logo.png" alt="">
+                        <img src="./Images/react js logo.png" alt="" class="img-fluid">
                     </div>
                 </div>
-              <h6>Sachin Tank</h6>
               <h5>UI UX Designing</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               <div class="watchflex">
@@ -89,14 +109,16 @@
                   </div>
               </div>
               <h3>6493499</h3>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
+              <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
               <div class="enroll">
                 <a href="">Enroll Now</a>
-                <span><i class="fa-solid fa-greater-than"></i></span>
+                <a href=""><span><i class="fa-solid fa-greater-than"></i></span></a>
               </div>
             </div>
         </div>
@@ -109,10 +131,9 @@
                         <h6>From 1 Sep to 1 Nov.</h6>
                     </div>
                     <div class="reactlogo">
-                        <img src="./Images/react js logo.png" alt="">
+                        <img src="./Images/react js logo.png" alt="" class="img-fluid">
                     </div>
                 </div>
-              <h6>Sachin Tank</h6>
               <h5>Frontend Development</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               <div class="watchflex">
@@ -126,14 +147,16 @@
                   </div>
               </div>
               <h3>6493499</h3>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
+              <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
               <div class="enroll">
                 <a href="">Enroll Now</a>
-                <span><i class="fa-solid fa-greater-than"></i></span>
+                <a href=""><span><i class="fa-solid fa-greater-than"></i></span></a>
               </div>
             </div>
         </div>
@@ -146,10 +169,9 @@
                         <h6>From 1 Sep to 1 Nov.</h6>
                     </div>
                     <div class="reactlogo">
-                        <img src="./Images/react js logo.png" alt="">
+                        <img src="./Images/react js logo.png" alt="" class="img-fluid">
                     </div>
                 </div>
-              <h6>Sachin Tank</h6>
               <h5>Back End Development</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               <div class="watchflex">
@@ -163,14 +185,16 @@
                   </div>
               </div>
               <h3>6493499</h3>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
+              <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
               <div class="enroll">
                 <a href="">Enroll Now</a>
-                <span><i class="fa-solid fa-greater-than"></i></span>
+                <a href=""><span><i class="fa-solid fa-greater-than"></i></span></a>
               </div>
             </div>
         </div>
@@ -179,7 +203,7 @@
 
    <div class="container">
     <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-4">
             <div class="courses">
                 <div class="coursebg">
                     <div class="coursebgheading">
@@ -188,10 +212,9 @@
                         <h6>From 1 Sep to 1 Nov.</h6>
                     </div>
                     <div class="reactlogo">
-                        <img src="./Images/react js logo.png" alt="">
+                        <img src="./Images/react js logo.png" alt="" class="img-fluid">
                     </div>
                 </div>
-              <h6>Sachin Tank</h6>
               <h5>FullStack Development</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               <div class="watchflex">
@@ -205,19 +228,20 @@
                   </div>
               </div>
               <h3>6493499</h3>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
+              <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
               <div class="enroll">
                 <a href="">Enroll Now</a>
-                <span><i class="fa-solid fa-greater-than"></i></span>
+                <a href=""><span><i class="fa-solid fa-greater-than"></i></span></a>
               </div>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 mt-4 mb-4">
-            <!-- <div class="graphics"> -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-4 mb-4">
                 <div class="courses">
                     <div class="coursebg">
                         <div class="coursebgheading">
@@ -226,10 +250,9 @@
                             <h6>From 1 Sep to 1 Nov.</h6>
                         </div>
                         <div class="reactlogo">
-                            <img src="./Images/react js logo.png" alt="">
+                            <img src="./Images/react js logo.png" alt="" class="img-fluid">
                         </div>
                     </div>
-                  <h6>Sachin Tank</h6>
                   <h5>Graphic Designing</h5>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div class="watchflex">
@@ -243,29 +266,68 @@
                       </div>
                   </div>
                   <h3>6493499</h3>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
                   <div class="enroll">
                     <a href="">Enroll Now</a>
-                    <span><i class="fa-solid fa-greater-than"></i></span>
+                    <a href=""><span><i class="fa-solid fa-greater-than"></i></span></a>
                   </div>
                 </div>
-            <!-- </div> -->
         </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-4 mb-4">
+          <div class="courses">
+              <div class="coursebg">
+                  <div class="coursebgheading">
+                      <h5>Frontend Basics <br> with React JS</h5>
+                      <h6>In Just 3 Months</h6>
+                      <h6>From 1 Sep to 1 Nov.</h6>
+                  </div>
+                  <div class="reactlogo">
+                      <img src="./Images/react js logo.png" alt="" class="img-fluid">
+                  </div>
+              </div>
+            <h5>Graphic Designing</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="watchflex">
+              <div class="watch">
+                  <span><i class="fa-solid fa-clock"></i></span>
+                  <h4>Live Classes</h4>
+                </div>
+                <div class="watch">
+                  <span><i class="fa-solid fa-clock"></i></span>
+                  <h4>Live Classes</h4>
+                </div>
+            </div>
+            <h3>6493499</h3>
+            <div class="rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <div class="enroll">
+              <a href="">Enroll Now</a>
+              <a href=""><span><i class="fa-solid fa-greater-than"></i></span></a>
+            </div>
+          </div>
+  </div>
     </div>
 </div>
 </div>
 
-<!-- footer starts -->
+<!----------- footer starts -------------->
 <div class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-1">
                 <div class="logo">
-                    <a href=""><img src="./Images/codebase-2.webp" alt=""></a>
+                    <a href=""><img src="./Images/fsl_logo-removebg-preview.png" alt="" ></a>
                 </div>
                 <div class="mail">
                     <span><i class="fa-solid fa-envelope"></i></span>
@@ -277,7 +339,7 @@
                 </div>
             </div>
 
-        <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-1">
               <div class="coursefooter">
                 <h5>Courses</h5>
                 <ul>
@@ -289,7 +351,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-1">
             <div class="coursefooter">
               <h5>More Links</h5>
               <ul>
@@ -302,18 +364,20 @@
           </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
-        <div class="social">
-            <span><i class="fa-brands fa-facebook"></i></span>
-            <span><i class="fa-brands fa-instagram"></i></span>
-            <span><i class="fa-brands fa-linkedin"></i></span>
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-1">
+        <div class="coursefooter">
+          <h5>Social Links</h5>
+            <a href=""><span><i class="fa-brands fa-facebook"></i></span></a>
+            <a href=""><span><i class="fa-brands fa-instagram"></i></span></a>
+            <a href=""><span><i class="fa-brands fa-linkedin"></i></span></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
         </div>
     </div>
 </div>
 </div>
 </div>
 
-<!-- copyright section -->
+<!------------- copyright section --------------->
 <div class="copyright">
     <div class="container">
         <div class="row">
@@ -326,46 +390,7 @@
     </div>
 </div>
 
-              
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-                
-
-            
-
-        
-
-    
-
-
-
-
-
-            
-              
-              
-              
-                    
-                
-
-            
-
-          
-
-     
-                      
-
-            
-
-        
-    
-    
-    
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
